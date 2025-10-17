@@ -36,7 +36,7 @@ section {
     border-color: #981b69;
     border-radius: 10px;
 }
-nav {
+nav a {
     color: rgb(255, 202, 229);
     padding: 1em;
     font-weight: bold;
