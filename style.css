@@ -1,6 +1,43 @@
 /*This is  SS comment */
 
+/* css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Trgets the body the <body> */
 body {
-    background-color: #3d0b29;
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5; /* 1.5 Line Spacing*/
+    color: #981b69;
+}
+
+h1 {
+    font-family: "BBH Sans Bartle", Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5em; 
+    color: #975a81;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "BBH Sans Bartle", Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5em; /* em - scales on font size */
+    /* if the font size is 40px, 0.5emm is 20px */
+}
+
+section {
+    background-color: #140d12;
+    color: #975a81;
+    margin: 5em;
+    padding: 2em;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #981b69;
+    border-radius: 10px;
+}
+nav {
+    color: rgb(255, 202, 229);
+    padding: 1em;
+    font-weight: bold;
 }
