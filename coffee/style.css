@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary:#4b2d1e;
+    --light:#ffffff;
+    --dark:#362d2a;
+    --muted:#f8f6f5;
+
+    --font-normal: Roboto, Arial, sans-serif;
+    --font-heading: 'Noto Serif', serif;
+}
+
+/* CSS reset - targets everything */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+/******************************************** COLOUR *************************************/
+.bg-primary { background-color: var(--primary); }
+.bg-light { background-color: var(--light); }
+.bg-dark { background-color: var(--dark); }
+.bg-muted { background-color: var(--muted); }
+
+.text-primary { color: var(--primary); }
+.text-light { color:var(--light); }
+.text-dark { color: var(--dark); }
+.text-muted { color: var(--muted); }
+/******************************************** SWATCHES ************************************/
+.swatches{
+    display: flex;
+    gap: 0.5rem;
+}
+.swatch .swatch-value {
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    width: 3rem; /* root font size: 16px*/
+
+    box-shadow: 0 0.1rem  0.2rem  0.1rem  rgba(45, 40, 35, 0.2);
+}
+
+.swatch .swatch-name {
+    text-align: center;
+}
