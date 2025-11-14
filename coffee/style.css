@@ -3,9 +3,16 @@
 /* CSS Variables */
 :root {
     --primary:#4b2d1e;
+    --primary-tint:#664433;
+    --primary-shade:#251309;
+
     --light:#ffffff;
     --dark:#362d2a;
-    --muted:#f8f6f5;
+    
+    --muted:#e8e6e5;
+    --muted-tint:#f8f6f5;
+    --muted-shade:#d8d6d5;
+
 
     --font-normal: Roboto, Arial, sans-serif;
     --font-heading: 'Noto Serif', serif;
@@ -43,6 +50,36 @@ p {
     padding: var(--space-1) var(--space-2);
 
     cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--light);
+}
+.btn-primary:hover {
+    background-color: var(--primary-tint);
+}
+.btn-primary:active {
+    background-color: var(--primary-shade);
+}
+
+.btn-secondary {
+    background-color: var(--muted);
+    color: var(--dark);
+}
+.btn-secondary:hover {
+    background-color: var(--muted-tint);
+}
+.btn-secondary:active {
+    background-color: var(--muted-shade);
+}
+
+.link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.link:hover {
+    color: var(--primary-tint);
 }
 
 /******************************************** COLOUR *************************************/
