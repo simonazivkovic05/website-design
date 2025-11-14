@@ -25,6 +25,7 @@
 
 /* CSS reset - targets everything */
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -92,6 +93,19 @@ p {
 .text-light { color:var(--light); }
 .text-dark { color: var(--dark); }
 .text-muted { color: var(--muted); }
+
+/***************************************** COMPONENTS ************************************/
+.product-image img {
+    aspect-ratio: 16/9;
+    width: 100%;
+
+    object-fit: cover;
+
+    border: 4px solid var(--light);
+    border-radius: var(--space-2);
+}
+
+
 
 /******************************************* LAYOUT ***************************************/
 .d-flex { display: flex; }
