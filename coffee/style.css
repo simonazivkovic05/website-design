@@ -242,3 +242,16 @@ p {
     overflow: clip;
     text-overflow: ellipsis;
 }
+
+/*************************************MOBILE*************************************/
+@media (max-width: 600px) {
+
+    .sm-grid-1col {
+        grid-template-columns: 1fr;
+    }
+
+    .sm-grid-2col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
